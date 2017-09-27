@@ -1,0 +1,18 @@
+.topo {
+	background-color: #cccccc;
+	color: white;
+}
+td, th{
+	border:2px solid white;
+	padding: 15px;
+}
+table {
+	border-collapse: collapse;
+}
+th {
+	background-color: blue;
+}
+td {
+	background-color: #cccccc;
+}
+
