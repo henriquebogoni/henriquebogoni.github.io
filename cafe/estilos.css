@@ -1,28 +1,30 @@
 body {
-background-color: #CDC0B0;
+background-color: white;
 }
 h1 {
 	font-family: verdana; 
-color: #8B4513;
-border: 5px solid #8B4500;
+color: black;
+border: 5px solid black;
 }
 p {
-color: blue;
+color: green;
 }
 h2 {
 font-family: verdana; 
-color: #D2691E;
-border: 2px solid #8B4500;
+color: black;
+
+
+
+/*linhas*/
 }
-h3 {
+h2 {
 	font-family: verdana; 
-color: #D2691E;
-border: 2px solid #8B4500;
+color: black;
+border: 2px solid black;
 }
 
 
-
-
+/*tabelas*/
 table {
     width: 600px;
     height: 300px;
@@ -53,5 +55,10 @@ tfoot {
     background-color: orange;
     color: white;
 }
-
+/*formularios*/
+textarea {
+    width: 400px;
+    height: 50px;
+    
+}
 

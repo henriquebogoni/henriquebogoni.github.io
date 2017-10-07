@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pedidos</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+	<form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi"</form><center>
+	<h2>Preencha o formulário abaixo e clique me "Enviar Pedido" para solicitar uma caixa com grãos personalizados.</h2>
+	<select name="variedade">
+        <option>Grãos da Colômbia</option>
+        <option>Grãos do Mexico</option>
+        <option>Grãos de tchekolosvakia</option>
+        <option>Chá Preto de Afeganistão</option>
+        <option>Grãos da Polônia</option>
+        </select><br>
+
+        <label>Tipo:</label><br>
+        <input type="radio" name="tipo" value="inteiro"> Grãos Inteiros<br>
+        <input type="radio" name="tipo" value="moido"> Grãos Moídos<br><br>
+
+		<label>Extra:</label><br>
+		<input type="checkbox" name="embalar">Embalar para presente<br>
+		<input type="checkbox" name="catalogo">Quero um catálogo com cafés especiais<br><br>
+		<label>Enviar para:</label><br><br>
+		Nome:<br><input type="text" name="nome"><br>
+		Endereço:<br><input type="text" name="endereco"><br>
+		Cidade:<br><input type="text" name="cidade"><br>
+		Estado:<br><input type="text" name="estado"><br>
+		CEP:<br><input type="text" name="cep"><br>
+
+		<label>Observações:</label><br>
+		<textarea name="obs"></textarea><br>
+		<input type="submit" value="Enviar Pedido">
+
+
+</body>
+</html>
