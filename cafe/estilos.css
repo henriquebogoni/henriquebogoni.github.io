@@ -14,7 +14,6 @@ font-family: verdana;
 color: black;
 
 
-
 /*linhas*/
 }
 h2 {
@@ -40,7 +39,7 @@ th {
 td {
     border: 1px solid black;
     font-family: sans-serif;
-    background-color: green;
+    background-color: white;
 }
 
 tfoot {
@@ -61,4 +60,15 @@ textarea {
     height: 50px;
     
 }
+
+
+.contorno{
+
+    width: 50%
+}
+
+.tabela{
+    background-color: white;
+}
+
 

@@ -1,0 +1,20 @@
+.preco{
+	border: solid 1px;
+	border-color: white;
+	font-weight: bold;
+	padding: 2px;
+	color: green;
+}
+span{
+	border: solid 1px;
+	border-color: white;
+	font-weight: bold;
+	padding: 2px;
+}
+div{
+	background-color: pink;
+	height: 200px;
+	width:600px;
+	padding: 20px;
+	line-height: 30px;
+}

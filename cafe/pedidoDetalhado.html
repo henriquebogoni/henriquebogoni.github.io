@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pedidos</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+	<div class="contorno">
+		<fieldset>
+	<form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi"><center>
+	<table class="tabela">
+		
+		<tr>
+			<th colspan="2" class="formheader">Dados de Contato:</th>
+		</tr>
+		<tr><td class="formlabel">			Nome Completo:</td><td class="formlabel" size="40"><input type="text" size="40" required placeholder="Serjão Berranteiro" name="nome"></td></tr>
+		<tr><td class="formlabel">			Email:<td class="formlabel" size="40"><input type="text" size="40" required placeholder="serjaoberranteiro@gmail.com" name="nome"></td></tr>
+		<tr><td class="formlabel">			Telefone:<td class="formlabel" size="40"><input type="text" placeholder="54 999887766" name="nome"></td></tr>
+
+		<tr>
+			<th colspan="2" class="formheader">Informações do Pedido:</th>
+		</tr>
+		<tr><td class="formlabel">			Variedade:<td class="formlabel" size="40"><select><option>Grãos da Colômbia</option><option>Grãos de tchekolosvakia</option><option>Chá Preto de Afeganistão</option><option>Grãos da Polônia</option></select>
+		</tr>
+		<tr><td class="formlabel">			Quantidade:<td class="formlabel" size="40"><input  required type="text" name="quantidade" min="1" max="100"></tr>
+		<tr><td class="formlabel"> 			Data limite:<td class="formlabel" size="40"><input required type="date" name="data" min="13/10/2017"></tr>
+		<tr><td class="formlabel">			Tipo:<td class="formlabel" size="40"><label><input type="radio" name="tipo" value="inteiro"> Grãos Inteiros<br><input type="radio" name="tipo" value="moido"> Grãos Moídos</label></tr>
+		<tr><td class="formlabel">			Extra:<td class="formlabel" size="40"><label><input type="checkbox" name="embalar">Embalar para presente<br><input type="checkbox" name="catalogo">Quero um catálogo com cafés especiais<br></label></tr>
+
+		<tr>
+			<th colspan="2" class="formheader">Dados de Entrega:</th>
+		</tr>
+		<tr><td class="formlabel">			Endereço:<td class="formlabel" size="40"><input type="text" size="40" required placeholder="Rua dos Indios Armados" name="endereco"></tr>
+		<tr><td class="formlabel">			Cidade/Estado:<td class="formlabel" size="40"><input type="text" required placeholder="Frederico Westphalen" name="estado">  / <select><option>AC</option><option>AL</option><option>AP</option><option>AM</option><option>BA</option><option>CE</option><option>DF</option><option>ES</option><option>GO</option><option>MA</option><option>MT</option><option>MS</option><option>MG</option><option>PA</option><option>PB</option><option>PR</option><option>PE</option><option>PI</option><option>RJ</option><option>RN</option><option>RS</option><option>RS</option><option>RO</option><option>PR</option><option>RR</option><option>SC</option><option>SP</option><option>SE</option><option>TO</option></select></tr>
+		<tr><td class="formlabel">			CEP:<td class="formlabel" size="40"><input type="text" required placeholder="888-20000" name="cep"></tr>
+  		<tr><td class="formlabel">			Observações:<td class="formlabel" size="40"><textarea cols="62" placeholder="Sem açucar e se milho por favor" name="obs"
+  		></textarea></tr>
+  		<tr>
+  			<td></td>
+  			<td><input type="reset" value="Limpar"><input type="submit" value="Enviar Pedido"><td>
+  		</tr>
+  		</table>
+  		</form>			
+		</fieldset>	
+	</div>
+</body>
+</html>
