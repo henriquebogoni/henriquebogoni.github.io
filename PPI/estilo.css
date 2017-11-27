@@ -1,13 +1,12 @@
 body {
-	border: 5px solid black;
-	font-family: verdana;
-}
-h1 {
-	font-family: verdana; 
-	color: green;
-	text-decoration: underline; 
+ border: 2px solid;
+  padding: 20px 20px 20px 70px;
 }
 
 
+div {
+    width: 700px;
+    height: 400px;
+}
 
 
