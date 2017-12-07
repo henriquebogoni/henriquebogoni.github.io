@@ -5,8 +5,15 @@ body {
 
 
 div {
-    width: 700px;
-    height: 400px;
+    width: 1000px;
+    height: 600px;
 }
 
+h4 {
+   border:2px solid;
+}
+
+.cor{
+	color: blue;
+}
 
